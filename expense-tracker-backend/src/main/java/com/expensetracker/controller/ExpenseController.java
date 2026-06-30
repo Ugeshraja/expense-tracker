@@ -20,7 +20,7 @@ import java.util.Optional;
 
 @CrossOrigin(origins = {
     "http://localhost:3000",
-    "https://expense-tracker-git-main-ugeshraja1.vercel.app"
+    "https://expense-tracker-kappa-indol.vercel.app/"
 })
 public class ExpenseController {
 
