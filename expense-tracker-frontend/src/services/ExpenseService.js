@@ -22,7 +22,7 @@ import axios from 'axios';
 // BASE_URL is the root address of our Spring Boot backend.
 // All API calls will be prefixed with this URL.
 // React runs on :3000, Backend runs on :8080
-const BASE_URL = 'http://localhost:8080/api/expenses';
+const BASE_URL = 'https://expense-tracker-hi05.onrender.com/';
 
 // -------------------------------------------------------
 // We create an "expenseService" object that holds
