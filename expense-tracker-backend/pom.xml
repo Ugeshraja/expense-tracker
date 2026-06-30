@@ -62,11 +62,11 @@
              The actual connector between Spring Boot and MySQL
              Without this, Spring Boot cannot reach MySQL
         ====================================================== -->
-        <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+       <dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <scope>runtime</scope>
+</dependency>
 
         <!-- =====================================================
              LOMBOK (Optional but helpful)
