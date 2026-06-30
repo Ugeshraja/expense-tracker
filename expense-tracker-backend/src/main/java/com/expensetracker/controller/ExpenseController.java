@@ -45,7 +45,10 @@ import java.util.Optional;
 // @CrossOrigin allows React (running on port 3000) to communicate
 // with our backend (running on port 8080).
 // Without this, the browser blocks requests between different ports.
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {
+    "http://localhost:3000",
+    "https://expense-tracker-id6gf92lm-ugeshraja1.vercel.app/"
+})
 public class ExpenseController {
 
     // Inject the ExpenseService so we can call its methods
